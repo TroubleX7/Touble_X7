@@ -1,0 +1,11 @@
+# 忽略 所有 .txt文件
+*.txt
+
+# 忽略 test文件夹下的所有文件
+test/
+
+# 忽略 指定文件 about.html
+about.html
+
+# 但跟踪所有的lib.txt 即便忽略了 .txt文件
+!lib.txt
